@@ -16,7 +16,7 @@ img {
 
 .right-side {
     display: grid;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 4fr;
 }
 
 .left-side {
@@ -70,16 +70,66 @@ img {
 
 
 
-
-
-
-
 /* header */
 .header {
     background-color: lightgray;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
+.header, 
+  .mainContent {
+    padding-left: 30px;
+  }
 
+.top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-content: center;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    gap: 10px;
+}
+
+.search img {
+    width: 20px;
+    align-self: center;
+    justify-self: end;
+}
+
+.search input {
+    width: 80%;
+    height: 20px;
+    align-self: center;
+    border-radius: 40px;
+    border: 1px black solid;
+}
+
+.notifications {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-content: center;
+    justify-content: end;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.notifications img {
+    width: 30px;
+}
+
+.notifications .bell {
+    width: 20px;
+}
+
+.notifications img,
+  .notifications h4 {
+    align-self: center;
+    justify-self: center;
+  }
 
 
 
