@@ -21,8 +21,8 @@ img {
 }
 
 .left-side {
-    background-color: lightseagreen;
-    
+    background-color: #075985;
+    color: #f0f9ff;
 }
 
 /* SideBar */
@@ -75,6 +75,7 @@ img {
 .header {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    background-color: #f0f9ff;
 }
 
 .header, 
@@ -169,7 +170,7 @@ img {
     width: 80px;
     border-radius: 40px;
     border: 1px black solid;
-    background-color: lightskyblue;
+    background-color: #0284c7;
     justify-self: end;
     align-self: center;
 }
@@ -177,7 +178,7 @@ img {
 
 /* mainContent */
 .mainContent {
-    background-color: lightcoral;
+    background-color: #7dd3fc;
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding-top: 25px;
@@ -206,7 +207,7 @@ img {
 .cards {
     width: 80%;
     height: 80%;
-    background-color: white;
+    background-color: #f0f9ff;
     align-self: center;
     border-radius: 10px;
     padding: 20px;
@@ -249,12 +250,12 @@ img {
   .trending {
     display: grid;
     grid-template-rows: auto 1fr;
-    gap: 15px;
+    gap: 10px;
 }
 
 .announcments-cards,
   .trending-cards {
-    background-color: white;
+    background-color: #f0f9ff;
     border-radius: 10px;
 }
 
@@ -272,8 +273,28 @@ img {
     padding: 20px 30px;
 }
 
+
 .trending-cards {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
 }
 
+.trending-users img{
+    width: 40px;
+    padding-left: 20px;
+}
+
+.trending-users {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-card p {
+    font-size: 12px;
+}
+
+.user-card h5 {
+    font-size: 15px;
+}
